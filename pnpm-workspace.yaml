@@ -1,0 +1,6 @@
+# pnpm 11 把「允许执行构建脚本」的依赖白名单放在这里
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.11'

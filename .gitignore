@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+pnpm-debug.log*
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Tauri
+src-tauri/target
+src-tauri/gen/schemas
+
+# 由 npm run webapp:sync 同步进来的静态产物（示例页除外）
+# public/webapp/*
