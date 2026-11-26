@@ -8,6 +8,9 @@ pnpm-debug.log*
 !.vscode/extensions.json
 .idea
 
+# .workbuddy-ai
+.shot
+
 # Tauri
 src-tauri/target
 src-tauri/gen/schemas
